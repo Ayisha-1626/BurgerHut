@@ -1,6 +1,5 @@
 
-<h4> visit site:</h4>
-<br>
+<h4> visit site: https://ayisha-1626.github.io/BurgerHut/</h4>
 <h3> 🏠 Home Page</h3>
 <br>
-![screencapture-127-0-0-1-5500-index-html-2024-07-27-20_50_55](https://github.com/user-attachments/assets/d4764a72-2942-4670-8316-c3aec7aef2a4)
+![screencapture-ayisha-1626-github-io-BurgerHut-2024-07-30-18_11_14](https://github.com/user-attachments/assets/b70e3c98-b0c1-46d7-9273-bc28b7f19b91)
