@@ -1,0 +1,383 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  position: fixed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #dddddd6d;
+  border-radius: 4px;
+}
+
+.hero {
+  background-image: url("https://cdn.pixabay.com/photo/2023/06/26/04/24/ai-generated-8088660_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+  background: rgba(40, 40, 40, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: rgb(255, 255, 255);
+}
+
+.hero-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e5533d;
+}
+
+.about {
+  background-image: url(Untitled\ design.png);
+  padding: 40px 20px;
+  text-align: center;
+  opacity: 2;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.menu-highlight {
+  background-color: #f9f9f999;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-item img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu-item h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.menu-item p {
+  font-size: 1em;
+}
+
+.testimonials {
+  /* background-color: #fff; */
+  background-image: url(Untitled\ design.png);
+  width: 100%;
+  height: 500px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonial-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.testimonial h4 {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #050505;
+}
+
+.gallery {
+  background-color: #cac8c8;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.gallery-img-holder {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-img-holder img {
+  width: 200px;
+  height: 200px;
+  transition: all ease 1s;
+}
+.gallery-img-holder:hover img {
+  scale: 1.5;
+  cursor: pointer;
+}
+
+.offers {
+  /* background-color: #fff; */
+  padding: 40px 20px;
+  background-image: url(Untitled\ design\ \(1\).png);
+  object-fit: cover;
+  text-align: center;
+}
+
+.offers-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.offer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offer h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.location,
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.location p,
+.contact-info p {
+  font-size: 1em;
+}
+
+.newsletter {
+  /* background-color: #fff; */
+  background-image: url("https://cdn.pixabay.com/photo/2016/07/07/13/54/burger-1502452_1280.jpg");
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter-content {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.newsletter-content p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.newsletter-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-content input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.newsletter-content button {
+  padding: 10px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-content button:hover {
+  background-color: #e5533d;
+}
+
+footer {
+  background-color: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff6347;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #ff6347;
+}
+
+footer p {
+  font-size: 0.9em;
+  color: #666;
+}
